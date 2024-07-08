@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        @media screen and (max-width:450px){
+            .md{
+            background-color: beige;
+            height: 1100px;
+            width: 400px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .item{
+            border: 2px solid;
+            width: 300px;
+            height: 25vh;
+          
+            align-content: center;
+        }
+
+        }
+
+        @media screen and (min-width:451px){
+        .md{
+            background-color: beige;
+            height: 600px;
+            width: 900px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            justify-content: space-evenly;
+
+        }
+        .item{
+            border: 2px solid;
+            width: 250px;
+            height: 130px;
+            align-items: center;
+            align-content: center;
+            padding: 10px;
+            
+        }
+    }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+        }
+    </Style>
+</head>
+<body>
+    <div class="md">
+     <div class="item">
+        <P>Stripe</P>
+        <p>Payment Services</p>
+        <P>Get more context on your users with stripe data inside your platform</P>
+     </div>
+     <div class="item"><P>Stripe</P>
+        <p>Payment Services</p>
+        <P>Get more context on your users with stripe data inside your platform</P></div>
+     <div class="item"><P>Stripe</P>
+        <p>Payment Services</p>
+        <P>Get more context on your users with stripe data inside your platform</P></div>
+     <div class="item"><P>Stripe</P>
+        <p>Payment Services</p>
+        <P>Get more context on your users with stripe data inside your platform</P></div>
+     <div class="item"><P>Stripe</P>
+        <p>Payment Services</p>
+        <P>Get more context on your users with stripe data inside your platform</P></div>
+     <div class="item"><P>Stripe</P>
+        <p>Payment Services</p>
+        <P>Get more context on your users with stripe data inside your platform</P></div>
+    </div>
+</body>
+</html>
